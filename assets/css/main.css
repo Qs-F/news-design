@@ -1,0 +1,75 @@
+* {
+  font-family: "Roboto", "GenShin", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html body {
+  background-color: #323232; }
+  html body header {
+    border-top: #00bfa5 solid 1px;
+    padding: 16px 0 16px 16px;
+    display: flex;
+    align-items: center; }
+    html body header > a {
+      color: #909090;
+      text-decoration: none;
+      font-family: "Roboto Mono", "Roboto", "GenShin", monospace;
+      font-size: 12px; }
+      html body header > a:hover {
+        color: whitesmoke; }
+      html body header > a::before {
+        padding: 0 12px;
+        font-weight: 900;
+        content: "\B7"; }
+      html body header > a:hover::before {
+        color: #909090; }
+    html body header h1 {
+      display: inline-block;
+      font-size: 32px;
+      font-weight: 900;
+      color: whitesmoke;
+      background-color: #00bfa5;
+      line-height: 1em;
+      padding: 0 4px; }
+  html body article {
+    padding-top: 16px;
+    max-width: 800px;
+    margin: 0 auto; }
+    @media screen and (max-width: 864px) {
+      html body article {
+        padding-left: 16px;
+        padding-right: 16px; } }
+    html body article ul {
+      list-style: none; }
+      html body article ul li {
+        font-size: 16px;
+        margin-bottom: 32px; }
+        html body article ul li p a {
+          letter-spacing: .14em;
+          text-decoration: none;
+          color: whitesmoke;
+          display: inline-block;
+          padding: 8px 4px; }
+          html body article ul li p a:hover {
+            color: whitesmoke;
+            background-color: #00bfa5; }
+        html body article ul li span {
+          font-family: "Roboto Mono", "Roboto", "GenShin", monospace;
+          color: #909090;
+          font-size: 8px;
+          display: block;
+          margin-top: 4px; }
+          html body article ul li span.date::before {
+            content: "ADDED: "; }
+  html body footer {
+    background-color: #323232;
+    display: block;
+    padding: 32px 16px;
+    font-size: 12px;
+    border-top: #00bfa5 solid 1px; }
+    html body footer p {
+      font-family: "Roboto Mono", "Roboto", "GenShin", monospace;
+      color: whitesmoke; }
+
+/*# sourceMappingURL=main.css.map */
